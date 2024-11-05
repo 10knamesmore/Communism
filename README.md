@@ -1,20 +1,22 @@
 # Communism
 
-<img width="900" alt="Screenshot of the app in my terminal on Arch" src="https://user-images.githubusercontent.com/9009959/218278604-390b7d68-1bba-425f-880b-4c40455559ce.png">
+<img width="900" alt="展示效果" src="./example.png">
 
-A chill ZSH startup plugin that adds Marx quotes and some wonderful red imagery to your terminal.
+一个 zsh 启动插件，在终端上展示图像与主席语录
 
-### Requires 
+### 需要
+
 - oh-my-zsh
 
-### Installation
+### 安装方法
 
-```
-cd ~/{wherever you put your OMZ plugins or scripts}
+```shell
+cd ~/{你的oh-my-zsh插件存放目录}
 git clone --depth-1 https://github.com/victoria-riley-barnett/Communism
 ```
 
-Edit your .zshrc Plugins array to include your new plugin:
-```
+在`.zshrc`中的 plugins 数组添加:
+
+```shell
 plugins=(... Communism)
 ```
